@@ -1,0 +1,75 @@
+.btn-background{
+   background-color: #212428 !important;
+   padding: 25px 120px !important;
+   border: none !important;
+   font-weight: bold !important;
+   font-family: 'Montserrat', sans-serif !important;
+   font-size: 20px !important;
+   color: #c4cfde !important;
+}
+
+.pricing-btn-background{
+   background-color: #212428 !important;
+   padding: 25px 60px !important;
+   border: none !important;
+   font-weight: bold !important;
+   font-family: 'Montserrat', sans-serif !important;
+   font-size: 20px !important;
+   color: #c4cfde !important;
+}
+
+.pricing-btn-header{
+   border : 1px solid #28292b !important;
+   border-radius: 10px !important;
+}
+
+.color{
+   color: #c4cfde !important;
+   text-align: left !important;
+   text-justify: left !important;
+}
+
+.price-card-header{
+   color: #c4cfde !important;
+   font-family: 'Montserrat', sans-serif !important;
+   margin-top: 20px !important;
+   text-align: left !important;
+   
+
+}
+
+.color{
+   color: #fff !important;
+}
+
+.price-list{
+   color: #ff014f !important;
+   font-family: 'Montserrat', sans-serif !important;
+   margin-top: 20px !important;
+  
+   border-radius: 5px !important;
+}
+
+.price-box-item{
+   text-align: left !important;
+   color: #c4cfde !important;
+}
+
+.price-box-description{
+   color: #c4cfde !important;
+   font-family: 'Montserrat', sans-serif !important;
+   text-align: left !important;
+   font-size: 15px !important;
+   margin-top: 25px !important;
+  
+}
+
+
+
+.w-100{
+   width: 100%;
+}
+
+.h-250{
+   height: 250px;
+}

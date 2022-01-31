@@ -1,0 +1,20 @@
+body{
+    background-color: #212428 !important;
+    margin: 0 !important;
+    padding:0 !important;
+    overflow-x: hidden !important;
+    width: 100% !important;
+}
+
+
+@import url('home.css');
+@import url('fontawesome.css');
+@import url('whatIDo.css');
+@import url('portfolio.css');
+@import url('topNav.css');
+@import url('button.css');
+@import url('Cards.css');
+@import url('form.css');
+.margin-top{
+    margin-top: 200px !important;
+}

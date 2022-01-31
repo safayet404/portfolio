@@ -1,0 +1,43 @@
+.projectCard{
+    background-color: #202327 !important;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 rgba(211, 216, 226, 0.2);
+    padding: 60px !important;
+}
+
+
+
+
+.icon{
+    color :#ff014f !important;
+
+    font-size: 45px !important;
+}
+
+.short-Heading{
+    color : #ff014f !important;
+    text-transform: uppercase !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 20px !important;
+}
+
+.long-Heading{
+    color : #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    margin-top: 30px !important;
+    font-size: 68px !important
+}
+
+.cardHeader{
+    color : #c4cfde !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.cardContent{
+    color : #c4cfde !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size:19px !important;
+}
