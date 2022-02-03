@@ -16,7 +16,7 @@ class Home extends Component {
                             <Row>
                                 <h6 className="topMiniHeader">WELCOME TO MY WORLD </h6>
                                 <h1 className="topHeader mt-5">Hi, I’m <span className="name">Safayet, </span> <br></br>
-                                    a Professional Developer </h1>
+                                    a Professional Coder </h1>
                                 <h6 className="mt-5 topContent">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</h6>
 
 
