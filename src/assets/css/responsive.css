@@ -92,7 +92,7 @@
     .input-field{ height: 45px; }
     .iconBox2{font-size: 12px !important; height: 30px !important; line-height: 30px !important;  width: 30px !important;  margin-bottom: 30px !important;  }
     .logoImg{  height: 58px !important;   width: 58px !important;}
-    .navTitle{ font-size: 16px !important;  margin-left:  -2000000000000px !important;}
+    .navTitle{ font-size: 16px !important; }
     .navItem{  padding: 12px 15px !important; font-size: 12px !important; }
     .buyNow{ padding: 10px 20px !important; }
     .footer-text{ font-size: 12px !important; margin-top: 30px !important; }
