@@ -1,6 +1,9 @@
+
+
+
 @media (max-width: 575px) { 
 
-    .topHeader{font-size : 35px !important;letter-spacing: 1px;  }
+    .topHeader{font-size : 28px !important;letter-spacing: 1px;  }
     .topContent{ font-size : 12px !important; letter-spacing: 1px; line-height: 20px ; padding: 5px !important;}
     .margins-top{margin-top: 50px !important;}
     .iconBox{font-size: 10px !important; height: 30px; letter-spacing: 2px;line-height: 30px; transition: 0.45s;width: 30px; margin-right: 12px !important; }
@@ -14,8 +17,8 @@
     .portfolioSubHeader{ font-size: 12px !important; }
     .portfolioCardHeader{ font-size: 12px !important; margin-top: 15px !important;  }
     .portfolioCardContent{ font-size: 15px !important; }
-    .btn-background{ padding: 10px 6px !important;font-size: 11px !important; }
-    .pricing-btn-background{   padding: 10px 15px !important; font-size: 12px !important; }
+    .btn-background{ padding: 5px 6px !important;font-size: 9px !important; }
+    .pricing-btn-background{   padding: 5px 10px !important; font-size: 9px !important; }
     .price-card-header{ margin-top: 12px !important;   }
     .price-list{ color: #ff014f !important;    margin-top: 12px !important; border-radius: 5px !important; }
     .price-box-description{font-size: 13px !important;  margin-top: 10px !important; }
@@ -94,7 +97,7 @@
     .buyNow{ padding: 10px 20px !important; }
     .footer-text{ font-size: 12px !important; margin-top: 30px !important; }
     .h-250{  height: 50px; }
-    
+
  }
 
 @media (max-width: 1199.98px) { 
