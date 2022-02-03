@@ -1,0 +1,113 @@
+@media (max-width: 575px) { 
+
+    .topHeader{font-size : 35px !important;letter-spacing: 1px;  }
+    .topContent{ font-size : 12px !important; letter-spacing: 1px; line-height: 20px ; padding: 5px !important;}
+    .margins-top{margin-top: 50px !important;}
+    .iconBox{font-size: 10px !important; height: 30px; letter-spacing: 2px;line-height: 30px; transition: 0.45s;width: 30px; margin-right: 12px !important; }
+    .projectCard{ padding: 15px !important; }
+    .short-Heading{font-size: 12px !important;}
+    .margins-top-do{margin-top: 50px !important;}
+    .long-Heading{margin-top: 10px !important; font-size: 38px !important }
+    .cardContent{ font-size:15px !important; }
+    .portfolioCard{ padding: 10px !important; }
+    .portfolioHeader{ font-size: 35px; }
+    .portfolioSubHeader{ font-size: 12px !important; }
+    .portfolioCardHeader{ font-size: 12px !important; margin-top: 15px !important;  }
+    .portfolioCardContent{ font-size: 15px !important; }
+    .btn-background{ padding: 10px 6px !important;font-size: 11px !important; }
+    .pricing-btn-background{   padding: 10px 15px !important; font-size: 12px !important; }
+    .price-card-header{ margin-top: 12px !important;   }
+    .price-list{ color: #ff014f !important;    margin-top: 12px !important; border-radius: 5px !important; }
+    .price-box-description{font-size: 13px !important;  margin-top: 10px !important; }
+    .label{ font-size: 10px !important;  }
+    .input-field{ height: 35px; }
+    .iconBox2{font-size: 12px !important; height: 30px !important; line-height: 30px !important;  width: 30px !important;  margin-bottom: 30px !important;  }
+    .logoImg{  height: 58px !important;   width: 58px !important;}
+    .navTitle{ font-size: 16px !important;}
+    .navItem{  padding: 12px 15px !important; font-size: 12px !important; }
+    .buyNow{ color: #ff014f !important;padding: 10px 20px !important; }
+    .footer-text{ font-size: 12px !important; margin-top: 30px !important; }
+
+}
+
+@media (max-width: 768px) {
+
+    .topHeader{font-size : 35px !important;letter-spacing: 1px;  }
+    .topContent{ font-size : 12px !important; letter-spacing: 1px; line-height: 20px ; padding: 5px !important;}
+    .margins-top{margin-top: 50px !important;}
+    .iconBox{font-size: 10px !important; height: 30px; letter-spacing: 2px;line-height: 30px; transition: 0.45s;width: 30px; margin-right: 12px !important; }
+    .projectCard{ padding: 15px !important; }
+    .short-Heading{font-size: 12px !important;}
+    .margins-top-do{margin-top: 50px !important;}
+    .long-Heading{margin-top: 10px !important; font-size: 38px !important }
+    .cardContent{ font-size:15px !important; }
+    .portfolioCard{ padding: 10px !important; }
+    .portfolioHeader{ font-size: 35px; }
+    .portfolioSubHeader{ font-size: 12px !important; }
+    .portfolioCardHeader{ font-size: 12px !important; margin-top: 15px !important;  }
+    .portfolioCardContent{ font-size: 15px !important; }
+    .btn-background{ padding: 10px 6px !important; font-size: 11px !important; }
+    .pricing-btn-background{   padding: 10px 15px !important; font-size: 12px !important; }
+    .price-card-header{ margin-top: 12px !important;   }
+    .price-list{ color: #ff014f !important;    margin-top: 12px !important; border-radius: 5px !important; }
+    .price-box-description{font-size: 13px !important;  margin-top: 10px !important; }
+    .label{ font-size: 10px !important;  }
+    .input-field{ height: 45px; }
+    .iconBox2{font-size: 12px !important; height: 30px !important; line-height: 30px !important;  width: 30px !important;  margin-bottom: 30px !important;  }
+    .logoImg{  height: 58px !important;   width: 58px !important;}
+    .navTitle{ font-size: 16px !important;}
+    .navItem{  padding: 12px 15px !important; font-size: 12px !important; }
+    .buyNow{ color: #ff014f !important;padding: 10px 20px !important; }
+    .footer-text{ font-size: 12px !important; margin-top: 30px !important; }
+    .h-250{  height: 50px; }
+
+ }
+
+
+@media (max-width: 991px) {
+
+    .topHeader{font-size : 45px !important;letter-spacing: 1px;  }
+    .topContent{ font-size : 12px !important; letter-spacing: 1px; line-height: 20px ; padding: 5px !important;}
+    .margins-top{margin-top: 50px !important;}
+    .iconBox{font-size: 10px !important; height: 30px; letter-spacing: 2px;line-height: 30px; transition: 0.45s;width: 30px; margin-right: 12px !important; }
+    .projectCard{ padding: 15px !important; }
+    .short-Heading{font-size: 12px !important;}
+    .margins-top-do{margin-top: 50px !important;}
+    .long-Heading{margin-top: 10px !important; font-size: 38px !important }
+    .cardContent{ font-size:15px !important; }
+    .portfolioCard{ padding: 10px !important; }
+    .portfolioHeader{ font-size: 35px; }
+    .portfolioSubHeader{ font-size: 12px !important; }
+    .portfolioCardHeader{ font-size: 12px !important; margin-top: 15px !important;  }
+    .portfolioCardContent{ font-size: 15px !important; }
+    .btn-background{ padding: 5px 50px !important;font-size: 15px !important; }
+    .pricing-btn-background{   padding: 10px 55px !important; font-size: 16px !important; }
+    .price-card-header{ margin-top: 12px !important;   }
+    .price-list{ color: #ff014f !important;    margin-top: 12px !important; border-radius: 5px !important; }
+    .price-box-description{font-size: 13px !important;  margin-top: 10px !important; }
+    .label{ font-size: 10px !important;  }
+    .input-field{ height: 45px; }
+    .iconBox2{font-size: 12px !important; height: 30px !important; line-height: 30px !important;  width: 30px !important;  margin-bottom: 30px !important;  }
+    .logoImg{  height: 58px !important;   width: 58px !important;}
+    .navTitle{ font-size: 16px !important;  margin-left:  -2000000000000px !important;}
+    .navItem{  padding: 12px 15px !important; font-size: 12px !important; }
+    .buyNow{ padding: 10px 20px !important; }
+    .footer-text{ font-size: 12px !important; margin-top: 30px !important; }
+    .h-250{  height: 50px; }
+
+ }
+
+@media (max-width: 1199.98px) { 
+
+    .logoImg{  height: 58px !important;   width: 58px !important;}
+    .navTitle{ font-size: 16px !important;  }
+    .navItem{   padding: 25px 20px  !important; font-size: 12px !important; }
+    .buyNow{padding: 12px 15px !important; font-size: 12px !important; box-shadow:none !important; margin-top: 10px !important;}
+    
+
+ }
+
+@media (max-width: 1399.98px) { 
+
+ }
+

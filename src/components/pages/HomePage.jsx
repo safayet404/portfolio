@@ -6,7 +6,7 @@ import Portfolio from '../portfolio/Portfolio';
 import AllCards from '../DesignCard/AllCards';
 import Pricing from '../pricing/Pricing';
 import Contact from '../contact/Contact';
-
+import Footer from '../footer/Footer';
 
 class HomePage extends Component {
     render() {
@@ -20,6 +20,7 @@ class HomePage extends Component {
                 <AllCards/>
                 <Pricing/>
                 <Contact/>
+                <Footer/>
                 
             </Fragment>
         );

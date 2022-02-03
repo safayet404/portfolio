@@ -5,11 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGem} from '@fortawesome/free-solid-svg-icons'
 import { faInstagram,faReact,faLaravel } from "@fortawesome/free-brands-svg-icons";
+import '../../assets/css/responsive.css';
 class Home extends Component {
     render() {
         return (
             <Fragment>
-                <Container className="margin-top">
+                <Container className="margins-top">
                     <Row>
                         <Col className="home1">
                             <Row>
@@ -20,7 +21,7 @@ class Home extends Component {
 
 
                             </Row>
-                            <Row className="margin-top">
+                            <Row className="margins-top">
                                 <Col>
                                     <p className="topMiniHeader">find with me</p>
                                     <a className="iconBox mt-3" href="http://facebook.com" ><FontAwesomeIcon icon={faFacebookF} /> </a>

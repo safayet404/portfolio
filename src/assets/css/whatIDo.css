@@ -1,12 +1,13 @@
+.margins-top-do{
+    margin-top: 200px !important;
+}
+
 .projectCard{
     background-color: #202327 !important;
     border-radius: 15px;
     box-shadow: 0 0 5px 0 rgba(211, 216, 226, 0.2);
     padding: 60px !important;
 }
-
-
-
 
 .icon{
     color :#ff014f !important;

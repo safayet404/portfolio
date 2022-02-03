@@ -6,7 +6,7 @@ class WhatIDo extends Component {
     render() {
         return (
             <Fragment>
-                 <Container className="mt-5 margin-top">
+                 <Container className="mt-5 margin-top-do">
                      <h4 className="short-Heading">Features</h4>
                      <h1 className="long-Heading">What I Do</h1>
                     <Row>

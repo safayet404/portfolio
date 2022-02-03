@@ -1,6 +1,6 @@
 import React, { Component,Fragment } from 'react';
 import TopNav from '../navBar/TopNav';
-
+import Footer from '../footer/Footer';
 import Pricing from '../pricing/Pricing';
 
 
@@ -12,7 +12,7 @@ class PricingPage extends Component {
             <TopNav/>
   
             <Pricing/>
-
+            <Footer />
             
         </Fragment>
         );

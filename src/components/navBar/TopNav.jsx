@@ -1,16 +1,17 @@
 import React, { Component, Fragment } from 'react';
-import { Container, Navbar, Nav, Button } from 'react-bootstrap';
+import { Container, Navbar, Nav} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import araf from '../../assets/images/2.png';
+import '../../assets/css/responsive.css';
 class TopNav extends Component {
     render() {
         return (
             <Fragment>
 
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar collapseOnSelect expand="lg" bg="dark" fixed="top" variant="dark">
                     <Container fluid={true}>
                         <img src={araf} alt=" " className="logoImg" />
-                        <Navbar.Brand className="navTitle" href="#home">Araf</Navbar.Brand>
+                        <Link className="navTitle" to="/">Safayet</Link>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
@@ -25,7 +26,7 @@ class TopNav extends Component {
                             
                                 <Link className="navItem" to="/price">Pricing</Link>
                                 <Link className="navItem" to="/contact">Contact</Link>
-                                <Button className="buyNow" href="#deets">Buy Now</Button>
+                                <Link className="buyNow" to="/price">Buy Now</Link>
                                 
                             </Nav>
                         </Navbar.Collapse>

@@ -1,6 +1,6 @@
 .logoImg{
-    height: 78px !important;
-    width: 78px !important;
+    height: 68px !important;
+    width: 68px !important;
     border-radius: 50% !important;
     border: 1px solid #a9afb6 !important;
     margin-top: 10px !important;
@@ -11,16 +11,17 @@
     color: #c4cfde !important;
     font-weight: bold !important;
     font-family: monospace !important;
-    font-size: 28px !important;
+    font-size: 18px !important;
     text-transform: uppercase !important;
     margin-left:  10px !important;
+    text-decoration: none !important;
 }
 
 .navItem{
     padding: 25px 30px !important;
     text-transform: uppercase !important;
     
-    font-size: 18px !important;
+    font-size: 16px !important;
     color: #fff !important;
     text-decoration: none !important;
     
@@ -31,11 +32,22 @@
    
     
     color: #ff014f !important;
-    padding: 20px 50px !important;
+    padding: 20px 30px !important;
     margin-top: 5px !important;
     border-radius:  10px !important;
     text-transform: uppercase !important;
     font-size: 19px !important;
     font-weight: 600 !important;
+    text-decoration: none !important;
     box-shadow: 0 0 5px 0 rgba(94, 92, 92, 0.2);
+    font-size: 16px !important;
 }
+
+
+.footer-text{
+    color: #c4cfde !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 17px !important;
+    margin-top: 50px !important;
+}
+
