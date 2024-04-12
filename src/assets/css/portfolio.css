@@ -58,3 +58,24 @@
     font-weight: bold !important;
 }
 
+
+.projectHead {
+    font-size: 18px !important;
+    text-transform: uppercase !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+
+}
+.projectContent {
+    font-size: 13px !important;
+    
+    font-family: 'Montserrat', sans-serif !important;
+   
+    color: #c4cfde !important;
+
+}
+
+.sourceCodeGap{
+    margin: 0px 20px 0px 0px;
+}

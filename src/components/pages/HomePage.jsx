@@ -7,6 +7,7 @@ import AllCards from '../DesignCard/AllCards';
 import Pricing from '../pricing/Pricing';
 import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
+import About from '../about/About';
 
 class HomePage extends Component {
     render() {
@@ -15,12 +16,13 @@ class HomePage extends Component {
 
                 <TopNav/>
                 <Home/>
-                <WhatIDo/>
+                <About/>
                 <Portfolio/>
                 <AllCards/>
                 <Pricing/>
                 <Contact/>
                 <Footer/>
+                <WhatIDo/>
                 
             </Fragment>
         );

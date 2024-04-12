@@ -1,40 +1,44 @@
 .logoImg{
-    height: 68px !important;
-    width: 68px !important;
-    border-radius: 50% !important;
-    border: 1px solid #a9afb6 !important;
-    margin-top: 10px !important;
-   
+    height: 80px !important;
+    width: 140px !important;
 }
 
-.navTitle{
+.nav {
+    cursor: pointer;
+}
+
+.nav:hover {
+    cursor: pointer;
+}
+
+.navTitle {
     color: #c4cfde !important;
     font-weight: bold !important;
     font-family: monospace !important;
     font-size: 18px !important;
     text-transform: uppercase !important;
-    margin-left:  10px !important;
+    margin-left: 10px !important;
     text-decoration: none !important;
 }
 
-.navItem{
-    padding: 25px 30px !important;
+.navItem {
+    padding: 20px 25px 0px 25px !important;
     text-transform: uppercase !important;
-    
+
     font-size: 16px !important;
     color: #fff !important;
     text-decoration: none !important;
-    
+
 }
 
-.buyNow{
+.buyNow {
     background-color: #212428 !important;
-   
-    
+
+
     color: #ff014f !important;
     padding: 20px 30px !important;
     margin-top: 5px !important;
-    border-radius:  10px !important;
+    border-radius: 10px !important;
     text-transform: uppercase !important;
     font-size: 19px !important;
     font-weight: 600 !important;
@@ -44,10 +48,9 @@
 }
 
 
-.footer-text{
+.footer-text {
     color: #c4cfde !important;
     font-family: 'Montserrat', sans-serif !important;
     font-size: 17px !important;
     margin-top: 50px !important;
 }
-

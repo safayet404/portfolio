@@ -5,12 +5,19 @@
     font-size : 12px;
     text-transform: uppercase;
 }
-
+.subtitle{
+    font-size: 40px !important;
+    color: #fff !important;
+}
 .margins-top{
     margin-top: 200px !important;
 }
 .name{
     color: #ff014f !important;
+}
+.bigImage{
+    height: 700px;
+    width: 700px;
 }
 .topHeader{
     color: #fff !important;
@@ -24,7 +31,7 @@
 .topContent{
     font-family : 'Raleway', sans-serif !important;
     color: #fff !important;
-    font-size : 20px !important;
+    font-size : 12px !important;
     letter-spacing: 1px;
     line-height: 35px ;
     padding: 16px !important;

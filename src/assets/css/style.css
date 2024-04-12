@@ -16,6 +16,8 @@ body{
 @import url('Cards.css');
 @import url('form.css');
 @import url('responsive.css');
+@import url('about.css');
+
 
 .margins-top{
     margin-top: 200px !important;

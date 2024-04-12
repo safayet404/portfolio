@@ -1,0 +1,42 @@
+.image-container {
+    height: 400px; 
+    width: 100%; 
+    overflow: hidden;
+    background-color: black;   
+    border-radius: 8px; 
+}
+
+
+.image-container .image1 {
+    background-image: url(../images/project1.png);
+    background-size: cover;
+    background-position: top;
+    height: 500px !important;
+    width: 400px !important;
+    transition: 1s ease-in-out;
+  }
+.image-container .image2 {
+    background-image: url(../images/project2.png);
+    background-size: cover;
+    background-position: top;
+    height: 500px !important;
+    width: 400px !important;
+    transition: 1s ease-in-out;
+  }
+.image-container .image3 {
+    background-image: url(../images/project1.png);
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    transition: 1s ease-in-out;
+  }
+
+  .image-container .image1:hover {
+    background-position: bottom ;
+  }
+  .image-container .image2:hover {
+    background-position: bottom ;
+  }
+  .image-container .image3:hover {
+    background-position: bottom ;
+  }

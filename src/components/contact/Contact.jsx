@@ -6,15 +6,17 @@ import { faFacebookF, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faLongArrowAltRight} from '@fortawesome/free-solid-svg-icons'
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import '../../assets/css//style.css';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 class Contact extends Component {
 
 
 
 
     render() {
+        AOS.init();
         return (
-            <Fragment>
+            <div id="scrollToContact">
 
                 <Container>
                     <Row>
@@ -87,7 +89,7 @@ class Contact extends Component {
                     </Row>
                 </Container>
 
-            </Fragment>
+            </div>
         );
     }
 }
