@@ -37,23 +37,21 @@ const TopNav = () => {
               <Link className="navItem" to="scrollToHome" smooth={true} duration={500}>
                 Home
               </Link>
-              <Link className="navItem" to="/do" smooth={true} duration={500}>
-                Features
+              <Link className="navItem" to="scrollToAbout" smooth={true} duration={500}>
+                About
               </Link>
-              <Link className="navItem" to="/portfolio" smooth={true} duration={500}>
-                Portfolio
+              <Link className="navItem" to="scrollToProject" smooth={true} duration={500}>
+                Projects
               </Link>
-              <Link className="navItem" to="contact" smooth={true} offset={-70} duration={500}>
-                Resume
+              <Link className="navItem" to="scrollToEducation" smooth={true} duration={500}>
+               Education-Skill
               </Link>
-              <Link className="navItem" to="/price" smooth={true} duration={500}>
-                Pricing
-              </Link>
+             
               <Link className="navItem" to="scrollToContact" smooth={true} offset={-70} duration={500}>
                 Contact
               </Link>
               <Link className="buyNow" to="/price" smooth={true} duration={500}>
-                Buy Now
+               Resume
               </Link>
             </Nav>
           </Navbar.Collapse>

@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../../assets/css/style.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faJs, faLinkedin, faNodeJs } from '@fortawesome/free-brands-svg-icons'
 import { faGem } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram, faReact, faLaravel } from "@fortawesome/free-brands-svg-icons";
 import '../../assets/css/responsive.css';
@@ -30,9 +30,9 @@ class Home extends Component {
 
                                 <Col>
                                     <p className="topMiniHeader">Best Skill On</p>
-                                    <a className="iconBox mt-3" href="http://facebook.com" ><FontAwesomeIcon className="iconColor" icon={faGem} /> </a>
                                     <a className="iconBox mt-3" href="http://facebook.com" ><FontAwesomeIcon className="iconColor" icon={faReact} /> </a>
-                                    <a className="iconBox mt-3" href="http://facebook.com" ><FontAwesomeIcon className="iconColor" icon={faLaravel} /> </a>
+                                    <a className="iconBox mt-3" href="http://facebook.com" ><FontAwesomeIcon icon={faNodeJs} /> </a>
+                                    <a className="iconBox mt-3" href="http://facebook.com" ><FontAwesomeIcon className="iconColor" icon={faJs} /> </a>
                                 </Col>
                             </Row>
                         </Col>

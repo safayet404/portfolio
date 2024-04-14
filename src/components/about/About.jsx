@@ -1,7 +1,11 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import safayet from "../../assets/images/safayet4.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 const About = () => {
+    AOS.init();
     return (
         <div id="scrollToAbout">
             <Container>

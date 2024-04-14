@@ -1,13 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import p1 from '../../assets/images/portfolio-01.webp';
-import p2 from '../../assets/images/portfolio-02.webp';
-import p3 from '../../assets/images/portfolio-03.webp';
-import p4 from '../../assets/images/portfolio-04.webp';
-import p5 from '../../assets/images/portfolio-05.webp';
-import p6 from '../../assets/images/portfolio-06.webp';
+
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css'; 
 
 
 

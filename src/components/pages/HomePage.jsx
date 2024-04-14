@@ -19,10 +19,10 @@ class HomePage extends Component {
                 <About/>
                 <Portfolio/>
                 <AllCards/>
-                <Pricing/>
+              
                 <Contact/>
                 <Footer/>
-                <WhatIDo/>
+                
                 
             </Fragment>
         );

@@ -36,7 +36,7 @@
 
 
 .input-field:focus {
-    background-color: #191b1e;
+    outline: 0 !important;
     
     
 }

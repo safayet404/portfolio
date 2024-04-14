@@ -40,3 +40,30 @@
   .image-container .image3:hover {
     background-position: bottom ;
   }
+
+
+
+.educationCard{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  border: 1px solid rgb(39, 26, 26) !important;
+  border-radius: 5px;
+  
+  border-radius: 5px !important;
+}
+
+.educationBtn{
+  background-color:#ff014f  !important;
+  border: none !important;
+  border-radius: 2px !important;
+
+}
+
+.skillBar{
+  width: 100% !important;
+  color: #ff014f !important;
+}
+
+.dummy{
+  color: white !important;
+}
