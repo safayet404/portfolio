@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 const Portfolio = () => {
     AOS.init();
     return (
-        <div id="scrollToProject">
+        <div data-aos="fade-right" id="scrollToProject">
             <Container>
                 <h3 className="name mt-5 mb-4">PROJECTS</h3>
                 <Row className='mt-5'>

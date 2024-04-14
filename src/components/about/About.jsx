@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const About = () => {
     AOS.init();
     return (
-        <div id="scrollToAbout">
+        <div data-aos="fade-left" id="scrollToAbout">
             <Container>
                 <Row>
                     <Col className='topContent' lg={6}>

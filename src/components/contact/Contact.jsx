@@ -12,7 +12,7 @@ const Contact = () => {
 
     AOS.init();
     return (
-        <div id="scrollToContact">
+        <div data-aos="fade-right" id="scrollToContact">
 
             <Container>
                 <h3 className='name mt-5'>CONTACT WITH ME</h3>

@@ -15,7 +15,7 @@ function AllCards() {
   AOS.init();
 
   return (
-    <div id="scrollToEducation">
+    <div data-aos="fade-left" id="scrollToEducation">
     <Container>
     <h3 className="name mb-5 mt-5">MORE ABOUT ME</h3>
 

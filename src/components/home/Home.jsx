@@ -9,7 +9,7 @@ import '../../assets/css/responsive.css';
 class Home extends Component {
     render() {
         return (
-            <div id="scrollToHome">
+            <div data-aos="fade-right" id="scrollToHome">
                 <Container className="margins-top">
                     <Row>
                         <Col className="home1">
