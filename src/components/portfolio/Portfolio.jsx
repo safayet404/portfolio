@@ -18,7 +18,7 @@ const Portfolio = () => {
                         <p className='projectContent'>It is shop management application for Parul Fabrics Ltd which is fabrics shop where they produce and sell jeans fabrics.This application has some functionality like sell,receive,customer manage and many more.
                         <br/><br/> 
                         E-mail : admin@gmail.com <br/><br/>
-                        Password : admin</p>
+                        Password : admin1234</p>
                         <h5 className='name'>Technology : ReactJS, NodeJS, ExpressJS, MongoDB</h5>
                         <div className="flex gap-3 mt-4 flex-column ">
                             <a href="https://github.com/zannat20040/HA-Beauty-Shop" target="_blank">
