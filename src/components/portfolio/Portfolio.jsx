@@ -31,7 +31,7 @@ const Portfolio = () => {
                                     Server code
                                 </button>
                             </a>
-                            <a href="parul-fabrics-ltd.onrender.com" target="_blank">
+                            <a href="https://parul-fabrics-ltd.onrender.com/" target="_blank">
                                 <button className="border sourceCodeGap btn py-1  bg-slate-950 text-white  rounded-md ">
                                     Live Site
                                 </button>
@@ -66,7 +66,7 @@ const Portfolio = () => {
                                     Server code
                                 </button>
                             </a>
-                            <a href="local-luminaries.onrender.com" target="_blank">
+                            <a href="https://local-luminaries.onrender.com/" target="_blank">
                                 <button className="border sourceCodeGap btn py-1  bg-slate-950 text-white  rounded-md ">
                                     Live Site
                                 </button>
