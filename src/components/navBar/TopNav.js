@@ -24,12 +24,11 @@ const TopNav = () => {
   return (
     <Fragment>
       <Navbar collapseOnSelect expand="lg" bg="dark" fixed="top" variant="dark">
-        <Container fluid={true}>
+        <Container >
          
-          <Link className="navTitle" to="/">
-          <img src={logo}alt=" " className="logoImg" />
-            
-          </Link>
+        <Navbar.Brand as={Link} to="/">
+            <img src={logo} alt="Logo" className="logoImg" />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
@@ -47,7 +46,7 @@ const TopNav = () => {
                Education-Skill
               </Link>
              
-              <Link className="navItem" to="scrollToContact" smooth={true} offset={-70} duration={500}>
+              <Link className="navItem" to="scrollToContact" smooth={true}  duration={500}>
                 Contact
               </Link>
               <Link className="buyNow" to="/price" smooth={true} duration={500}>

@@ -12,40 +12,40 @@ const Portfolio = () => {
         <div data-aos="fade-right" id="scrollToProject">
             <Container>
                 <h3 className="name mt-5 mb-4">PROJECTS</h3>
-                <Row className='mt-5'>
+                <Row className='mt-5 '>
                     <Col>
                         <p className='projectHead '>01.Parul Fabrics LTD</p>
                         <p className='projectContent'>It is shop management application for Parul Fabrics Ltd which is fabrics shop where they produce and sell jeans fabrics.This application has some functionality like sell,receive,customer manage and many more.
                         <br/><br/> 
                         E-mail : admin@gmail.com <br/><br/>
-                        Password : admin</p>
+                        Password : admin1234</p>
                         <h5 className='name'>Technology : ReactJS, NodeJS, ExpressJS, MongoDB</h5>
-                        <div className="flex gap-3 mt-4 flex-column ">
-                            <a href="https://github.com/zannat20040/HA-Beauty-Shop" target="_blank">
+                        <div className="flex gap-3 mt-4 flex-column mb-5">
+                            <a href="https://github.com/safayet404/parul-fabrics-ltd" target="_blank">
                                 <button className="border sourceCodeGap btn  py-1 px-3  bg-slate-950 text-white  rounded-md ">
                                     Client code
                                 </button>
                             </a>
-                            <a href="https://github.com/zannat20040/HA-beauty-shop-server" target="_blank">
+                            <a href="https://github.com/safayet404/parul-fabrics-ltd-backend" target="_blank">
                                 <button className="border sourceCodeGap btn  py-1  bg-slate-950 text-white  rounded-md ">
                                     Server code
                                 </button>
                             </a>
-                            <a href="https://brand-shop-3c930.web.app/" target="_blank">
+                            <a href="https://parul-fabrics-ltd.onrender.com" target="_blank">
                                 <button className="border sourceCodeGap btn py-1  bg-slate-950 text-white  rounded-md ">
                                     Live Site
                                 </button>
                             </a>
                         </div>
                     </Col>
-                    <Col><div className="image-container">
+                    <Col><div className="image-container d-flex justify-content-center">
                         <div className="image1 "></div>
                     </div>
                     </Col>
                 </Row>
                 <Row className='mt-5'>
-                <Col><div className="image-container">
-                        <div className="image2 "></div>
+                <Col><div className="image-container mb-5 d-flex justify-content-center">
+                        <div className="image2"></div>
                     </div>
                     </Col>
                     <Col>
@@ -56,17 +56,17 @@ const Portfolio = () => {
                         </p>
                         <h5 className='name'>Technology : ReactJS, NodeJS, ExpressJS, MongoDB</h5>
                         <div className="flex gap-3 mt-4 flex-column ">
-                            <a href="https://github.com/zannat20040/HA-Beauty-Shop" target="_blank">
+                            <a href="https://github.com/safayet404/local-luminaries-frontend" target="_blank">
                                 <button className="border sourceCodeGap btn  py-1 px-3  bg-slate-950 text-white  rounded-md ">
                                     Client code
                                 </button>
                             </a>
-                            <a href="https://github.com/zannat20040/HA-beauty-shop-server" target="_blank">
+                            <a href="https://github.com/safayet404/local-luminaries-backend" target="_blank">
                                 <button className="border sourceCodeGap btn  py-1  bg-slate-950 text-white  rounded-md ">
                                     Server code
                                 </button>
                             </a>
-                            <a href="https://brand-shop-3c930.web.app/" target="_blank">
+                            <a href="https://local-luminaries.onrender.com/" target="_blank">
                                 <button className="border sourceCodeGap btn py-1  bg-slate-950 text-white  rounded-md ">
                                     Live Site
                                 </button>

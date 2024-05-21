@@ -17,9 +17,9 @@ const Contact = () => {
             <Container>
                 <h3 className='name mt-5'>CONTACT WITH ME</h3>
                 <Row>
-                    <Col lg={5} md={5} sm={12} className="mt-5">
+                    <Col lg={5} md={5} sm={12} className="mt-5 d-flex justify-content-center">
 
-                        <Card>
+                        <Card className='contact-card'>
                             <img alt=" " className="card-image mt-3" src={c1} />
                             <Card.Body>
 
@@ -44,7 +44,7 @@ const Contact = () => {
                         </Card>
                     </Col>
 
-                    <Col lg={7} md={7} sm={12} className="mt-5 card-shadow">
+                    <Col lg={7} md={7} sm={12} className="mt-5 card-shadow d-flex justify-content-center">
 
                         <Form className="p-5">
                             <Form.Group className="mb-3" controlId="formBasicEmail">

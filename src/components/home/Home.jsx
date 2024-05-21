@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../../assets/css/style.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faJs, faLinkedin, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faGithub, faJs, faLinkedin, faNodeJs } from '@fortawesome/free-brands-svg-icons'
 import { faGem } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram, faReact, faLaravel } from "@fortawesome/free-brands-svg-icons";
 import '../../assets/css/responsive.css';
@@ -23,9 +23,8 @@ class Home extends Component {
                             <Row className="mt-5">
                                 <Col>
                                     <p className="topMiniHeader">find with me</p>
-                                    <a className="iconBox mt-3" href="http://facebook.com" ><FontAwesomeIcon icon={faFacebookF} /> </a>
-                                    <a className="iconBox mt-3" href="http://facebook.com" ><FontAwesomeIcon icon={faInstagram} /> </a>
-                                    <a className="iconBox mt-3" href="http://facebook.com" ><FontAwesomeIcon icon={faLinkedin} /> </a>
+                                    <a className="iconBox mt-3" href="https://github.com/safayet404" target='_blank' ><FontAwesomeIcon icon={faGithub} /> </a>
+                                    <a className="iconBox mt-3" href="https://www.linkedin.com/in/safayet-hossain-090324216/" target='_blank'><FontAwesomeIcon icon={faLinkedin} /> </a>
                                 </Col>
 
                                 <Col>

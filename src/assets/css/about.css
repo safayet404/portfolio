@@ -67,3 +67,8 @@
 .dummy{
   color: white !important;
 }
+
+.bigImage{
+  height: 700px;
+  width: 700px;
+}
