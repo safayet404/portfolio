@@ -50,7 +50,7 @@ const TopNav = () => {
               <Link className="navItem" to="scrollToContact" smooth={true}  duration={500}>
                 Contact
               </Link>
-              <a href={resume} download className="buyNow" to="/price" smooth={true} duration={500}>
+              <a href={resume} download className="buyNow" smooth={true} duration={500}>
                Resume
               </a>
             </Nav>

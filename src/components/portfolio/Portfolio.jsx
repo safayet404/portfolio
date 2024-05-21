@@ -25,12 +25,12 @@ const Portfolio = () => {
                         <div className="gap-3 mt-4 mb-5 middle">
                             <a href="https://github.com/safayet404/parul-fabrics-ltd" target="_blank">
                                 <button className="border sourceCodeGap btn  py-1 px-3  bg-slate-950 text-white  rounded-md ">
-                                    Client code
+                                    Client Code
                                 </button>
                             </a>
                             <a href="https://github.com/safayet404/parul-fabrics-ltd-backend" target="_blank">
                                 <button className="border sourceCodeGap btn  py-1  bg-slate-950 text-white  rounded-md ">
-                                    Server code
+                                    Server Code
                                 </button>
                             </a>
                             <a href="https://parul-fabrics-ltd.onrender.com" target="_blank">
@@ -43,7 +43,7 @@ const Portfolio = () => {
                     </Col>
                     <Col lg={6} md={12} sm={12}><div className="image-container">
                         <div className="image1 ">
-                            
+
                         </div>
                     </div>
                     </Col>
@@ -59,12 +59,12 @@ const Portfolio = () => {
                         <div className="gap-3 mt-4">
                             <a href="https://github.com/safayet404/local-luminaries-frontend" target="_blank">
                                 <button className="border sourceCodeGap btn  py-1 px-3  bg-slate-950 text-white  rounded-md ">
-                                    Client code
+                                    Client Code
                                 </button>
                             </a>
                             <a href="https://github.com/safayet404/local-luminaries-backend" target="_blank">
                                 <button className="border sourceCodeGap btn  py-1  bg-slate-950 text-white  rounded-md ">
-                                    Server code
+                                    Server Code
                                 </button>
                             </a>
                             <a href="https://local-luminaries.onrender.com/" target="_blank">
