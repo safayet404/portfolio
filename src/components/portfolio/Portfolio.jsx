@@ -14,14 +14,15 @@ const Portfolio = () => {
                 <h3 className="name mt-5 mb-4">PROJECTS</h3>
                 <Row className='mt-5 '>
                     <Col lg={6} md={12} sm={12}>
-                        <p className='projectHead '>01.Parul Fabrics LTD</p>
+                      
+                       <p className='projectHead'>01.Parul Fabrics LTD</p>
                         <p className='projectContent'>It is shop management application for Parul Fabrics Ltd which is fabrics shop where they produce and sell jeans fabrics.This application has some functionality like sell,receive,customer manage and many more.
                         <br/><br/> 
                         E-mail : admin@gmail.com <br/><br/>
                         Password : admin1234</p>
                         
                         <h5 className='name'>Technology : ReactJS, NodeJS, ExpressJS, MongoDB</h5>
-                        <div className="flex gap-3 mt-4 flex-column mb-5">
+                        <div className="gap-3 mt-4 mb-5 middle">
                             <a href="https://github.com/safayet404/parul-fabrics-ltd" target="_blank">
                                 <button className="border sourceCodeGap btn  py-1 px-3  bg-slate-950 text-white  rounded-md ">
                                     Client code
@@ -38,25 +39,24 @@ const Portfolio = () => {
                                 </button>
                             </a>
                         </div>
+                       
                     </Col>
-                    <Col lg={6} md={12} sm={12}><div className="image-container d-flex justify-content-center">
-                        <div className="image1 "></div>
+                    <Col lg={6} md={12} sm={12}><div className="image-container">
+                        <div className="image1 ">
+                            
+                        </div>
                     </div>
                     </Col>
                 </Row>
                 <Row className='mt-5'>
-                <Col lg={6} md={12} sm={12}><div className="image-container mb-5 d-flex justify-content-center">
-                        <div className="image2"></div>
-                    </div>
-                    </Col>
+                
                     <Col lg={6} md={12} sm={12}>
                         <p className='projectHead'>02.Local Luminaries</p>
                         <p className='projectContent'>It is a tour guide agency website.This application has some functionality tour booking,cancel,tour customization.
-                        <br/><br/> 
-                        <br/><br/>
+                       
                         </p>
                         <h5 className='name'>Technology : ReactJS, NodeJS, ExpressJS, MongoDB</h5>
-                        <div className="flex gap-3 mt-4 flex-column ">
+                        <div className="gap-3 mt-4">
                             <a href="https://github.com/safayet404/local-luminaries-frontend" target="_blank">
                                 <button className="border sourceCodeGap btn  py-1 px-3  bg-slate-950 text-white  rounded-md ">
                                     Client code
@@ -68,11 +68,15 @@ const Portfolio = () => {
                                 </button>
                             </a>
                             <a href="https://local-luminaries.onrender.com/" target="_blank">
-                                <button className="border sourceCodeGap btn py-1  bg-slate-950 text-white  rounded-md ">
+                                <button className="border sourceCodeGap btn py-1   text-white  rounded-md ">
                                     Live Site
                                 </button>
                             </a>
                         </div>
+                    </Col>
+                    <Col lg={6} md={12} sm={12}><div className="image-container mb-5 mt-5">
+                        <div className="image2"></div>
+                    </div>
                     </Col>
                     
                 </Row>

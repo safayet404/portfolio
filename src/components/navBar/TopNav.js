@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from '../../assets/images/logo.png'
+import resume from "../../assets/file/Resume.pdf"
 import { Fragment, useState, useEffect } from "react";
 import { Link } from "react-scroll";
 const TopNav = () => {
@@ -49,9 +50,9 @@ const TopNav = () => {
               <Link className="navItem" to="scrollToContact" smooth={true}  duration={500}>
                 Contact
               </Link>
-              <Link className="buyNow" to="/price" smooth={true} duration={500}>
+              <a href={resume} download className="buyNow" to="/price" smooth={true} duration={500}>
                Resume
-              </Link>
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>
