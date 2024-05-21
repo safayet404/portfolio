@@ -45,11 +45,11 @@ const Portfolio = () => {
                     </Col>
                 </Row>
                 <Row className='mt-5'>
-                <Col><div className="image-container mb-5 d-flex justify-content-center">
+                <Col lg={6} md={12} sm={12}><div className="image-container mb-5 d-flex justify-content-center">
                         <div className="image2"></div>
                     </div>
                     </Col>
-                    <Col>
+                    <Col lg={6} md={12} sm={12}>
                         <p className='projectHead'>02.Local Luminaries</p>
                         <p className='projectContent'>It is a tour guide agency website.This application has some functionality tour booking,cancel,tour customization.
                         <br/><br/> 
