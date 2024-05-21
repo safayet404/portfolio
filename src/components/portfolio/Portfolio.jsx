@@ -13,7 +13,7 @@ const Portfolio = () => {
             <Container>
                 <h3 className="name mt-5 mb-4">PROJECTS</h3>
                 <Row className='mt-5 '>
-                    <Col>
+                    <Col lg={6} md={12} sm={12}>
                         <p className='projectHead '>01.Parul Fabrics LTD</p>
                         <p className='projectContent'>It is shop management application for Parul Fabrics Ltd which is fabrics shop where they produce and sell jeans fabrics.This application has some functionality like sell,receive,customer manage and many more.
                         <br/><br/> 
@@ -39,7 +39,7 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </Col>
-                    <Col><div className="image-container d-flex justify-content-center">
+                    <Col lg={6} md={12} sm={12}><div className="image-container d-flex justify-content-center">
                         <div className="image1 "></div>
                     </div>
                     </Col>
