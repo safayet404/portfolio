@@ -19,6 +19,7 @@ const Portfolio = () => {
                         <br/><br/> 
                         E-mail : admin@gmail.com <br/><br/>
                         Password : admin1234</p>
+                        
                         <h5 className='name'>Technology : ReactJS, NodeJS, ExpressJS, MongoDB</h5>
                         <div className="flex gap-3 mt-4 flex-column mb-5">
                             <a href="https://github.com/safayet404/parul-fabrics-ltd" target="_blank">
