@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -15,7 +15,43 @@ const Portfolio = () => {
                 <Row className='mt-5 '>
                     <Col lg={6} md={12} sm={12}>
                       
-                       <p className='projectHead'>01.Parul Fabrics LTD</p>
+                       <p className='projectHead'>01.Project Management System</p>
+                        <p className='projectContent'>A robust Project Management System designed to streamline task tracking, team collaboration, and project timelines. Features include task assignment, progress monitoring, and real-time updates to ensure efficient project execution.
+                        <br/><br/> 
+                        E-mail : admin@gmail.com <br/><br/>
+                        Password : safayet</p>
+                        
+                        <h5 className='name'>Technology : ReactJS, NodeJS, ExpressJS, MongoDB</h5>
+                        <div className="gap-3 mt-4 mb-5 middle">
+                            <a href="https://github.com/safayet404/task-management-system" target="#blank">
+                                <button className="border sourceCodeGap btn  py-1 px-3  bg-slate-950 text-white  rounded-md ">
+                                    Client Code
+                                </button>
+                            </a>
+                            <a href="https://github.com/safayet404/project-pulse-backend" target="#blank">
+                                <button className="border sourceCodeGap btn  py-1  bg-slate-950 text-white  rounded-md ">
+                                    Server Code
+                                </button>
+                            </a>
+                            <a href="https://project-management-system-cloud.vercel.app" target="#blank">
+                                <button className="border sourceCodeGap btn py-1  bg-slate-950 text-white  rounded-md ">
+                                    Live Site
+                                </button>
+                            </a>
+                        </div>
+                       
+                    </Col>
+                    <Col lg={6} md={12} sm={12}><div className="image-container">
+                        <div className="image3 ">
+
+                        </div>
+                    </div>
+                    </Col>
+                </Row>
+                <Row className='mt-5 '>
+                    <Col lg={6} md={12} sm={12}>
+                      
+                       <p className='projectHead'>02.Shop Management System</p>
                         <p className='projectContent'>It is shop management application for Parul Fabrics Ltd which is fabrics shop where they produce and sell jeans fabrics.This application has some functionality like sell,receive,customer manage and many more.
                         <br/><br/> 
                         E-mail : admin@gmail.com <br/><br/>
@@ -23,17 +59,17 @@ const Portfolio = () => {
                         
                         <h5 className='name'>Technology : ReactJS, NodeJS, ExpressJS, MongoDB</h5>
                         <div className="gap-3 mt-4 mb-5 middle">
-                            <a href="https://github.com/safayet404/parul-fabrics-ltd" target="_blank">
+                            <a href="https://github.com/safayet404/parul-fabrics-ltd" target="#blank">
                                 <button className="border sourceCodeGap btn  py-1 px-3  bg-slate-950 text-white  rounded-md ">
                                     Client Code
                                 </button>
                             </a>
-                            <a href="https://github.com/safayet404/parul-fabrics-ltd-backend" target="_blank">
+                            <a href="https://github.com/safayet404/parul-fabrics-ltd-backend" target="#blank">
                                 <button className="border sourceCodeGap btn  py-1  bg-slate-950 text-white  rounded-md ">
                                     Server Code
                                 </button>
                             </a>
-                            <a href="https://parul-fabrics-ltd.vercel.app" target="_blank">
+                            <a href="https://parul-fabrics-ltd.vercel.app" target="#blank">
                                 <button className="border sourceCodeGap btn py-1  bg-slate-950 text-white  rounded-md ">
                                     Live Site
                                 </button>
@@ -57,17 +93,17 @@ const Portfolio = () => {
                         </p>
                         <h5 className='name'>Technology : ReactJS, NodeJS, ExpressJS, MongoDB</h5>
                         <div className="gap-3 mt-4">
-                            <a href="https://github.com/safayet404/local-luminaries-frontend" target="_blank">
+                            <a href="https://github.com/safayet404/local-luminaries-frontend" target="#blank">
                                 <button className="border sourceCodeGap btn  py-1 px-3  bg-slate-950 text-white  rounded-md ">
                                     Client Code
                                 </button>
                             </a>
-                            <a href="https://github.com/safayet404/local-luminaries-backend" target="_blank">
+                            <a href="https://github.com/safayet404/local-luminaries-backend" target="#blank">
                                 <button className="border sourceCodeGap btn  py-1  bg-slate-950 text-white  rounded-md ">
                                     Server Code
                                 </button>
                             </a>
-                            <a href="https://local-luminaries.vercel.app/" target="_blank">
+                            <a href="https://local-luminaries.vercel.app/" target="#blank">
                                 <button className="border sourceCodeGap btn py-1   text-white  rounded-md ">
                                     Live Site
                                 </button>
@@ -87,62 +123,3 @@ const Portfolio = () => {
 
 export default Portfolio
 
-{/* <Container>
-
-<h5 className="portfolioSubHeader text-center margin-top">Visit my portfolio and keep your feedback</h5>
-<h1 className="portfolioHeader text-center">My Portfolio</h1>
-<Row>
-    <Col sm={12} md={6} lg={4} className="p-2 mt-5">
-        <Card className="portfolioCard">
-            <img className="portfolioCardImg" src={p1} alt=" " />
-            <h4 className="portfolioCardHeader">Developmet</h4>
-            <p className="portfolioCardContent">The services provide for design</p>
-
-
-        </Card>
-    </Col>
-    <Col sm={12} md={6} lg={4} className="p-2 mt-5">
-        <Card className="portfolioCard">
-            <img className="portfolioCardImg" src={p2} alt=" " />
-            <h4 className="portfolioCardHeader">Application</h4>
-            <p className="portfolioCardContent">Mobile app landing design & app maintain</p>
-
-        </Card>
-    </Col>
-    <Col sm={12} md={6} lg={4} className="p-2 mt-5">
-        <Card className="portfolioCard">
-            <img className="portfolioCardImg" src={p3} alt=" " />
-            <h4 className="portfolioCardHeader">Photoshop</h4>
-            <p className="portfolioCardContent">Logo design creativity & Application</p>
-
-
-        </Card>
-    </Col>
-    <Col sm={12} md={6} lg={4} className="p-2 mt-5">
-        <Card className="portfolioCard">
-            <img className="portfolioCardImg" src={p4} alt=" " />
-            <h4 className="portfolioCardHeader">Figma</h4>
-            <p className="portfolioCardContent">Mobile app landing design & Services</p>
-
-        </Card>
-    </Col>
-    <Col sm={12} md={6} lg={4} className="p-2 mt-5">
-        <Card className="portfolioCard">
-            <img className="portfolioCardImg" src={p5} alt=" " />
-            <h4 className="portfolioCardHeader">Artificail Inteliggence</h4>
-            <p className="portfolioCardContent">Design for tecnology & services</p>
-
-
-        </Card>
-    </Col>
-    <Col sm={12} md={6} lg={4} className="p-2 mt-5">
-
-        <Card className="portfolioCard">
-            <img className="portfolioCardImg" src={p6} alt=" " />
-            <h4 className="portfolioCardHeader">API Creation</h4>
-            <p className="portfolioCardContent">App for tecnology & services</p>
-
-        </Card>
-    </Col>
-</Row>
-</Container> */}
